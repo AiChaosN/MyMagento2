@@ -1,4 +1,14 @@
-L
+
+# Magento2 安装与配置指南
+
+## 开启流程
+
+### 启动Apache2
+```bash
+sudo /etc/init.d/apache2 start
+```
+
+### 启动MySQL
 ```bash
 sudo /etc/init.d/mysql start
 ```
