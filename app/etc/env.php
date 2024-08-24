@@ -1,21 +1,38 @@
 <?php
 return [
-    'backend' => [
-        'frontName' => 'admin_7cb4q81'
+    'cache_types' => [
+        'compiled_config' => 1,
+        'config' => 1,
+        'layout' => 1,
+        'block_html' => 1,
+        'collections' => 1,
+        'reflection' => 1,
+        'db_ddl' => 1,
+        'eav' => 1,
+        'customer_notification' => 1,
+        'config_integration' => 1,
+        'config_integration_api' => 1,
+        'graphql_query_resolver_result' => 1,
+        'full_page' => 1,
+        'config_webservice' => 1,
+        'translate' => 1
     ],
     'remote_storage' => [
         'driver' => 'file'
     ],
+    'backend' => [
+        'frontName' => 'admin_c0icaja'
+    ],
     'cache' => [
         'graphql' => [
-            'id_salt' => 'VcWgqmsWhEOrnPgt02FcZrtqHqLExMNv'
+            'id_salt' => 'YbDsSO9AvQqiPvXaJKKRXs44bje58ffC'
         ],
         'frontend' => [
             'default' => [
-                'id_prefix' => 'c03_'
+                'id_prefix' => 'daa_'
             ],
             'page_cache' => [
-                'id_prefix' => 'c03_'
+                'id_prefix' => 'daa_'
             ]
         ],
         'allow_parallel_generation' => false
@@ -27,7 +44,7 @@ return [
         'consumers_wait_for_messages' => 1
     ],
     'crypt' => [
-        'key' => 'base64j5BMcHx5lBQBIjCKGiqw1OmwFUETKjVdulL+qVH8Yxs='
+        'key' => 'base64go5suu+JehNcHa8QyoineLSXtaEmvm76eUjnGW0sBAc='
     ],
     'db' => [
         'table_prefix' => '',
@@ -53,7 +70,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'production',
+    'MAGE_MODE' => 'default',
     'session' => [
         'save' => 'files'
     ],
@@ -63,27 +80,10 @@ return [
     'directories' => [
         'document_root_is_pub' => true
     ],
-    'cache_types' => [
-        'config' => 1,
-        'layout' => 1,
-        'block_html' => 1,
-        'collections' => 1,
-        'reflection' => 1,
-        'db_ddl' => 1,
-        'compiled_config' => 1,
-        'eav' => 1,
-        'customer_notification' => 1,
-        'config_integration' => 1,
-        'config_integration_api' => 1,
-        'graphql_query_resolver_result' => 1,
-        'full_page' => 1,
-        'config_webservice' => 1,
-        'translate' => 1
-    ],
     'downloadable_domains' => [
         'localhost'
     ],
     'install' => [
-        'date' => 'Sun, 18 Aug 2024 06:13:36 +0000'
+        'date' => 'Fri, 23 Aug 2024 05:36:34 +0000'
     ]
 ];

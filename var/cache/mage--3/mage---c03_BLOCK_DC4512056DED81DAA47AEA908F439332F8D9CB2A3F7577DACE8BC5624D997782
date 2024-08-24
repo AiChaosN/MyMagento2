@@ -1,5 +1,0 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1723970986;s:6:"expire";i:1724834986;s:4:"tags";s:23:"c03_BLOCK_HTML,c03_MAGE";}
-a:2:{s:8:"policies";a:1:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:0:{}}}s:4:"html";s:79:"<p class="magento-version">
-    <strong>Magento</strong>
-    ver. 2.4.7-p2</p>
-";}
